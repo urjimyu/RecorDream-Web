@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-styled-components", "stylelint-config-clean-order"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
+  "customSyntax": "@stylelint/postcss-css-in-js",
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "end-of-file-newline": true,
+    "no-descending-specificity": null,
+    "at-rule-empty-line-before": null
+  }
+}
